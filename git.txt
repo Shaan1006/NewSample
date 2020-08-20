@@ -1,0 +1,33 @@
+Chapter 2
+commands
+1.git init - initializes  a new git repository in cd
+zero commits initialization.
+
+2.git log - commit history
+3.git status- files changed since last commit
+
+choosing what to commit :
+
+working directory ->   Staging area  ->     git repo
+
+git add - files added to staging area
+git commit - opens editor  std practice to write command
+git diff id1 id2    - difference between current commit and previous commit
+git diff (no arguments)- difference between directory version and staging area
+git diff --staged - difference between staging area and commit area
+
+git reset --hard : any changes in staging area or working directory will be discarded
+git branch - number of branches currently available
+git branch easy mode - new branch made easy mode
+git checkout branchname - use this branch now on.
+
+git show commit_id- will show changes compared to it's parent
+
+git merger branch1 branch2 - merging two branches
+
+Can git always merge files ??
+No
+conflict detection
+
+Chapter 3
+git remote - creates a remote (handle)
